@@ -1,0 +1,45 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.3
+-- http://www.phpmyadmin.net
+-- 
+-- 主机: localhost
+-- 生成日期: 2013 年 07 月 24 日 04:20
+-- 服务器版本: 5.0.51
+-- PHP 版本: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- 数据库: `myuser`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `staff`
+-- 
+
+CREATE TABLE `staff` (
+  `ID` int(11) NOT NULL,
+  `a1` int(2) default NULL,
+  `a2` varchar(50) default NULL,
+  `a3` varchar(5) default NULL,
+  `a4` int(3) default NULL,
+  `a5` varchar(50) default NULL,
+  `a6` int(3) default NULL,
+  `a7` int(3) default NULL,
+  `a8` int(5) NOT NULL,
+  `a9` int(5) NOT NULL,
+  `a10` varchar(50) NOT NULL,
+  `a11` varchar(50) NOT NULL,
+  `a12` varchar(50) NOT NULL,
+  `a13` varchar(50) NOT NULL,
+  `a14` varchar(50) NOT NULL,
+  `a15` int(5) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- 
+-- 导出表中的数据 `staff`
+-- 
+
+INSERT INTO `staff` VALUES (1, 3, 'ECS000PWP', '凯之渡PW', 3, '中国.南京凯之渡信息技术有限公司', 100, 100, 300, 280, '中国.南京凯之渡信息技术有限公司大学生实习平台（PWP）', '中国.南京凯之渡信息技术有限公司大学生实习平台（简称PWP）为大学生提供岗位实习平台。', 'images/201307/thumb_img/pwplogo_thumb_img.jpg', 'images/201307/goods_img/pwplogo_goods_img.jpg', 'images/201307/source_img/pwplogo_source_img.jpg', 7);
